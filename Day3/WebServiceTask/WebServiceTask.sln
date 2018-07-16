@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "WebServiceTask", "WebServiceTask\WebServiceTask.dtproj", "{81F86A73-8574-40F5-BF13-162A7704D354}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F86A73-8574-40F5-BF13-162A7704D354}.Development|Default.ActiveCfg = Development
+		{81F86A73-8574-40F5-BF13-162A7704D354}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AA047E1-B5BE-4A64-9CB6-844CF2809BEC}
+	EndGlobalSection
+EndGlobal

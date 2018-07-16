@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Execute Sql Task", "Execute Sql Task\Execute Sql Task.dtproj", "{887D5528-BE6F-416F-B70B-DA75FDDAFF36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{887D5528-BE6F-416F-B70B-DA75FDDAFF36}.Development|Default.ActiveCfg = Development
+		{887D5528-BE6F-416F-B70B-DA75FDDAFF36}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {960202A1-9A7C-4A64-A40F-2FBC3C42089A}
+	EndGlobalSection
+EndGlobal

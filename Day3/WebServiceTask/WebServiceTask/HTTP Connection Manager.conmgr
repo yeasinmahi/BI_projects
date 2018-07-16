@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="HTTP Connection Manager"
+  DTS:DTSID="{8855C9A2-9F19-498E-8F18-F606A4C5C72B}"
+  DTS:CreationName="HTTP">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="http://android.akij.net/AGWebService.asmx?wsdl">
+      <DTS:HttpConnection
+        DTS:ServerURL="http://android.akij.net/AGWebService.asmx?wsdl">
+        <DTS:Property
+          DTS:Name="ServerPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABaIeJ7bSwEOvL44zM1rcTgAAAAACAAAAAAADZgAAwAAAABAAAADa08F3+Z9CWxBTc0NR1R1SAAAAAASAAACgAAAAEAAAADiVZghWbQu9W6+KJEsCAaV4AAAAjdsrOa1jV7v9YUvdPOmotJA8+PBH6xUHx+HGhXtKRLblFauVJ7VnN0gLlYjMFv7Xd2xRp2Qkp15m9CC/r72dFZHJUZGXYqSUvJlTz81/Lt5urlUbxSY2bNEmRGj/M8cnSagKWSvljgLGbNZQw0EZba3TogomAYlpFAAAAAvv/3hYTjpHcHX72ZTHclwKPwyQ</DTS:Property>
+        <DTS:Property
+          DTS:Name="ProxyPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABaIeJ7bSwEOvL44zM1rcTgAAAAACAAAAAAADZgAAwAAAABAAAAChW3emsjdVGwDez0OtEgwtAAAAAASAAACgAAAAEAAAAKiOeaq4c78MU8C3d8dc2vJ4AAAAy8AFqHBlJbkfuEimisrVYlLp1yqpj4U3YQ1j0ea271ZSadDW9uaAa/peVnTm3QC5wh6ULZa/nmaBwsp8POpx/FAocjkuBdtl2gOHoRZR49ksonXDH09UAhZfnUPxls3M7C7hZmigfYCeC62oR0YXMIFmKWSaPpMrFAAAAPDLf92nxjbtGm62w+y1Gw6dFAUZ</DTS:Property>
+      </DTS:HttpConnection>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

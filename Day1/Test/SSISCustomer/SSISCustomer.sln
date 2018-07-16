@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSISCustomer", "SSISCustomer\SSISCustomer.dtproj", "{B6CD7883-7489-4B38-86BC-4A759133B545}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6CD7883-7489-4B38-86BC-4A759133B545}.Development|Default.ActiveCfg = Development
+		{B6CD7883-7489-4B38-86BC-4A759133B545}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B20E5B9-80F6-4B10-8B73-1BD98D7A7FC3}
+	EndGlobalSection
+EndGlobal
