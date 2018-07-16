@@ -1,45 +1,102 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+MSBI stands for Microsoft Business Intelligence. The powerful suite tool developed by Microsoft which offers best solutions for BI (Business Intelligence and Data-Mining Quires. This tool uses Microsoft visual studio data tools + SQL server. It provides different processes for different tools for BI solutions.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+MSBI is divided into 3 entities
+•	SSIS - SQL Server Integration Services.
+•	SSAS - SQL Server Analytical Services.
+•	SSRS - SQL Server Reporting Services.
 
----
 
-## Edit a file
+SSIS: SSIS is basically an integration service it integrates the data from different format like Sybase, Oracle, Text, Excel, MySQL into one format, while doing integration it first refreshes data and cleans data. This integration process is done with the help of OLTP (Online Transaction Processing) component of MS SQL Server.
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+SSAS: SSAS is analyze service, it analyzes the stored data. SSAS use OLAP (Online Analytical Processing) component and data mining capabilities. For analyze process it build multi-dimensional structures called CUBES and build mining models to perform data analysis and to get valuable information.
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+SSRS: SSRS is reporting service, Now represent analyze data in a graphical way SSRS is used, SSRS generates reports of analyze data, Reports, Plans, Dashboards, Scorecards, and Excel etc.
 
----
 
-## Create a file
+Business Intelligent: Business Intelligence is techniques for transforming data into information. This information helps to make quick decisions. 
+From the Wikipedia: 
+Business intelligence (BI) is the set of techniques and tools for the transformation of raw data into meaningful and useful information for business analysis purposes. BI technologies are capable of handling large amounts of unstructured data to help identify, develop and otherwise create new strategic business opportunities.
 
-Next, you’ll add a new file to this repository.
+The difference between data and information: 
+Data is row material for analysis. Data is always related to transactions or events. Once the data is analyzed it's considered to be meaningful information. 
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+Benefits of BI:
+•	Identity Cost Drivers
+•	Increase Added Value
+•	Monitoring of results
+•	Real time reporting
+•	Predictive analysis
+•	Avoiding long discussion
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
 
----
+MSBI Tools
 
-## Clone a repository
+Microsoft provides some tools to transform your business data into information. We can use these tools with the interface of Visual Studio. 
+We can download this tool: SQL Server Data Tools (SSDT)
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+Definition of Database: 
+A database is an organized collection of data. The data are typically organized to model aspects of reality in a way that supports processes requiring information.
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
+Database Management Systems (DBMSs) are specially designed software applications that interact with the user, other applications and the database itself to capture and analyses data. A general-purpose DBMS is a software system designed to allow the definition, creation, querying, update and administration of databases.
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+ETL (Extracts, Transform, and Load) Tools
+
+ETL means that its takes the data from various source locations, maybe as a different data format (for example SQL, txt, xls and so on) and store this data into a destination (Data Warehouse).
+
+From the Wikipedia: 
+In computing, Extract, Transform and Load (ETL) refers to a process in database usage and especially in data warehousing that: 
+
+Extracts data from homogeneous or heterogeneous data sources. 
+Transforms the data for storing it in a proper format or structure for querying and analysis purpose. 
+Loads it into the final target (database, more specifically, operational data store, data mart, or data warehouse). 
+
+SQL Server Integration Service (SSIS) 
+SSIS is the ETL tool from Microsoft. 
+Integration Services is a platform for building high-performance data integration and workflow solutions, including extraction, transformation and loading (ETL) operations for data warehousing. 
+We can process the data from various locations and various formats (source locations) and save the data into a centralized repository as a Data Warehouse/Data Mart (destination).
+
+It includes graphical tools and wizards for building and debugging packages. 
+
+ 
+
+Data Warehouse and Data Mart: 
+
+This is commonly used for reporting and business analysis purposes. This system is actually the output of integrated data from multiple sources and stored into a centralized repository. The Data warehouse stores the current and historical data, so it is easy to generate trend reports, predictive analysis and comparison reports. It's very helpful for the top management to take the quick decisions about the business. 
+
+A Data Mart means that it's a small part of a Data Warehouse and indicates only a single part (for example sales or finance). It always holds more summarized information.
+
+SQL Server Analysis Service (SSAS) 
+
+This is the process of converting two dimensional (rows and columns/OLTP) data into multi-dimensional data model (OLTP). This will help you to analyze the large volume of data.
+
+Some of the advantages:
+•	Multi-dimensional analysis
+•	Key performance Indicator (KPI)
+•	Score card
+•	Slice, dice, drill down functionalities
+•	Good performance
+•	Security and so on.
+•	The following shows the differences between On-line Transaction Processing (OLTP) and On-line Analytical Processing (OLAP).
+
+
+
+OLTP	OLAP
+Storing the current data (always a production environment)	Storing historical and current data from multiple locations
+Perform all DML (create, update, read, delete)	Perform only Read
+High Availability	Flexible access to data
+Normalized database	De-normalized with fewer tables because of less performance with large volume of data.
+Data will update frequently	Periodically update the Data
+SQL Server Reporting Service
+
+Microsoft SQL Server Reporting Services (SSRS) is an enterprise reporting platform supporting traditional and interactive reports delivered over the web or through custom applications. It supports various data sources like two dimensional and multi-dimensional.
+
+The following are some features of SSRS:
+•	Retrieve data from different source
+•	Web based access to reports
+•	Support for Ad-hoc reporting
+•	Report builder helps to customize the reports for end user.
+•	Easy subscriptions options
+•	Export functionality with lots of format.
+•	Display reports in various ways like tabular, chart, Gauge and so on.
+
