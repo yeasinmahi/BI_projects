@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="devesql.customerDataWareHouse.devesqlrw"
+  DTS:DTSID="{DE30E3A9-B712-4312-9435-E88AD22BC910}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=devesql;User ID=devesqlrw;Initial Catalog=customerDataWareHouse;Persist Security Info=True;Application Name=SSIS-ExcelToSql-{DE30E3A9-B712-4312-9435-E88AD22BC910}devesql.customerDataWareHouse.devesqlrw;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARH+LMuKHEU+XaTABeI87VAAAAAACAAAAAAADZgAAwAAAABAAAAB3J9IopiMwzB2LszxzqX2qAAAAAASAAACgAAAAEAAAAMcvio4NfgFY33VBvl8i3nJ4AAAAEBy4rE64CcnNSxjIJ5pEyk58UFAbWTq/VjhSu1PFREWA7395nYeNwEq9BTqyBHb4KHI9Vd50jvKFdSfN/BSMTeKqPoUGxrRnyYZpY2VwczHzEPfJgRRTX3myD+D1u8NfnA9QP8mVLz2pUHQSN7lnXB49koffIavCFAAAAAetiAcZJz4ELEDUY8CJ57ZZ0PLi</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{5A2FF303-5C96-4A4E-AC51-DF9183CB8A20}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{25CF931F-46A1-405B-85ED-D0ADA94A83EA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -456,6 +456,10 @@
           Size="154,42"
           Id="Package\Source excel to destination excel\Derived Column"
           TopLeft="240,44" />
+        <NodeLayout
+          Size="159,42"
+          Id="Package\Source excel to destination excel\Excel Destination"
+          TopLeft="424,46" />
         <EdgeLayout
           Id="Package\Source excel to destination excel.Paths[Excel Source Output]"
           TopLeft="186,64.5">
@@ -478,10 +482,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="159,42"
-          Id="Package\Source excel to destination excel\Excel Destination"
-          TopLeft="424,46" />
         <EdgeLayout
           Id="Package\Source excel to destination excel.Paths[Derived Column Output]"
           TopLeft="394,66">
